@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "浏览时间统计",
+  "description": "用于统计网页的浏览时间",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  }
+}
